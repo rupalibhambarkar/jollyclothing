@@ -12,8 +12,11 @@
     "user:create": "evershop user:create",
     "user:changePassword": "evershop user:changePassword"
   },
-  "workspaces": ["extensions/*"],
+  "workspaces": [
+    "extensions/*"
+  ],
   "dependencies": {
+    "@evershop/azure_file_storage": "^2.1.1",
     "@evershop/evershop": "2.1.0"
   },
   "devDependencies": {

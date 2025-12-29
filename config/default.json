@@ -1,7 +1,7 @@
 {
   "shop": {
     "language": "en",
-    "currency": "USD"
+    "currency": "INR"
   },
   "system": {
     "extensions": [
@@ -9,6 +9,12 @@
         "name": "sample",
         "resolve": "extensions/sample",
         "enabled": true
+      },
+       {
+        "name": "azure_file_storage",
+        "resolve": "node_modules/@evershop/azure_file_storage",
+        "enabled": true,
+        "priority": 10
       }
     ],
     "theme": "sample"
